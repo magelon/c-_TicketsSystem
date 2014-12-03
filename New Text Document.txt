@@ -1,0 +1,102 @@
+CS360_C++LAB_FINAL_PROJECT
+GROUP MEMBERS 
+SHAHED & GUOJINDONG
+April 15, 2014
+
+EXECUTIVE SUMMARY
+
+Objective Airplane Ticket System
+
+
+Goals
+	1.	Set up airline schedule for one week. Initiate pilot, flight attendances, and airline for each airline  on main function or use file open. 
+	2.	Use switch to show options for checking airline and ticket option. 
+	3.	Input passenger information when purchase ticket. 
+	4.	Display all passengers for one airline. 
+
+ Knowledge
+	1.	Three different constructor and destructor. Get and set functions. 
+	2.	Display function. 
+	3.	Inheritance, composition, and aggregation. 
+	4.	Overloading and overriding functions. 
+	5.	Operator overloading. 
+	6.	Polymorphs and virtual function. 
+	7.	Constant variables or methods. 
+	8.	Dynamic memory allocation. 
+	9.	This pointer. 
+	10.	Friend function. 
+	11.	File open. 
+	12.	Exception. 
+
+Project Outline 
+1.	 Person class with first_name, last_name, gender, age, address, city, state, zip_code, phone_number .	 get and set functions for accessing and modifying elements.  Display function to display information. 
+	2.	 Pilot class by inherit Person class, and add flight_hour, position 
+ get and set functions for accessing and modifying elements.   Display function to display information. 
+3.		 FlightAttendance class by inherit Person class, and add height, weight, and position  (purser or crew member),  get and set functions for accessing and modifying elements.   Display function to display information. 
+4.	 Airline class with start_city, land_city, start_time, and land_time, flight_hour (=land_time  - start_time), company, ID, type, pilots and flight_attendances.  function to set up crew and Display information. 
+5.		 Ticket class with number, price, airline, and passenger. setPrice function to set up price  based on age, flight_hour, and seat_class (coach, business, or first). setAirline function to set up airline, setPassenger to set up passenger, Display function for display information .
+
+
+Thanks 
+Thanks to  our Instructor Ms.Zhang,Irene , whiteout her advice project will not doing perfectly.
+Thanks to all group members hardworking.
+
+
+
+
+
+screen shorts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+system’s menu 
+
+
+when customers purchasing tickets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+this the show function which shows the detail of tickets purchased by customers.
+
+
+
+
+
+
+
+
+
+
+
+
